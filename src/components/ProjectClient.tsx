@@ -4,7 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowLeft, Calendar, Tag, ExternalLink, ArrowRight } from "lucide-react";
-import { Project } from "@/data/projects";
+import { Project, projects } from "@/data/projects";
 
 import ReactMarkdown from "react-markdown";
 
