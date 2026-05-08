@@ -84,7 +84,7 @@ export const projects: Project[] = [
     "category": "Development",
     "year": "2026",
     "coverImage": "/assets/tailwind_lab.png",
-    "content": null,
+    "content": "",
     "tags": [
       "React",
       "Tailwind"
