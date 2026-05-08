@@ -18,7 +18,7 @@ export const projects: Project[] = [
     "description": "還在用長長的 LINE 訊息或雜亂的雲端硬碟分享珍貴回憶嗎？Milestone Studio 是一個專為「人生重大時刻」打造的 No-Code 網頁建置平台。我們將「硬邦邦的資料」轉化為「具備極致美感與高度互動」的專屬頁面，讓每一刻感動都能被優雅地保存與分享。",
     "category": "Development",
     "year": "2026",
-    "coverImage": "/assets/navigator_preview.png",
+    "coverImage": "/assets/milestone.png",
     "content": "**標題：** Milestone Studio：不只是相簿，而是充滿溫度的數位空間\n\n**簡介：**\n還在用長長的 LINE 訊息或雜亂的雲端硬碟分享珍貴回憶嗎？Milestone Studio 是一個專為「人生重大時刻」打造的 No-Code 網頁建置平台。我們將「硬邦邦的資料」轉化為「具備極致美感與高度互動」的專屬頁面，讓每一刻感動都能被優雅地保存與分享。\n\n**詳情：**\n\n- 🎨 **設計師般的直覺編輯**：透過強大的拖拽功能與預設模組，任何人都能輕鬆排版出 Apple 級別的網頁質感。\n- 💬 **超越距離的互動感**：內建「即時祝福牆」與「AI 演變投票」，讓親友不只是看照片，更能參與其中。\n- ⚡ **即時同步，永久典藏**：由 Supabase 驅動的實時技術，不論身在哪裡，點開連結就能感受零時差的喜悅。\n\n---",
     "tags": [
       "React",
@@ -43,7 +43,7 @@ export const projects: Project[] = [
     "description": "以視覺化回饋為核心的習慣追蹤應用，靈感源自 GitHub 貢獻圖。採用玻璃擬態 UI 設計，將成長足跡轉化為直觀的熱力圖與連續紀錄。",
     "category": "Development",
     "year": "2026",
-    "coverImage": "/assets/gridos_preview.png",
+    "coverImage": "/assets/gridos.png",
     "content": "# Gridos 螢跡\n\n> **「我們重複執行的行為造就了我們。因此，卓越不是一個行為，而是一個習慣。」**\n>\n> **螢跡 Gridos**：由每一道微光，記錄成長的軌跡。\n\n---\n\n## 📖 專案簡介 (Introduction)\n\n**Gridos** (Grid + OS) 是一個專注於視覺化回饋的習慣追蹤應用程式。\n\n設計靈感源自於 GitHub 的貢獻圖 (Contribution Graph)，我們深信 **「可視化的進步」** 是維持自律最強大的動力。透過直觀的熱力圖與互動式介面，Gridos 將枯燥的打卡轉化為富有成就感的視覺體驗，協助使用者建立並維持長期的正面習慣。\n\n### 🚀 要解決的問題 (Problem Solved)\n\n建立與維持新習慣往往面臨以下挑戰：\n1. **缺乏即時回饋**：每天的努力容易被遺忘，難以感受到長期積累的價值。\n2. **動力難以維持**：缺乏明確的進度指標，容易在幾天後放棄。\n3. **介面繁瑣**：市面上的工具往往過於複雜，反而增加了執行的心理負擔。\n\n**Gridos 透過以下方式解決這些痛點：**\n- **熱力圖回顧 (History Heatmap)**：一目瞭然地看見過去每一天的努力軌跡，填滿格子的過程本身就是一種獎勵。\n- **連續紀錄 (Streak Tracking)**：透過連續天數的統計，激發使用者「不想中斷紀錄」的心理動力。\n- **極致的 UI/UX**：採用深色玻璃擬態 (Glassmorphism) 設計與流暢的微動畫 (Micro-interactions)，讓每一次操作都充滿質感與愉悅。\n- **本地端資料保存**：資料安全地儲存在瀏覽器 LocalStorage，無需註冊即可立即使用。\n\n---\n\n## 🛠️ 使用技術 (Tech Stack)\n\n本專案採用現代化的前端技術棧構建，不僅追求效能，更注重開發體驗與程式碼品質：\n\n- **核心框架**: [React 19](https://react.dev/)\n- **建置工具**: [Vite](https://vitejs.dev/) - 極速的開發服務器與打包工具\n- **程式語言**: [TypeScript](https://www.typescriptlang.org/) & JavaScript (ES6+)\n- **樣式系統**: [Tailwind CSS v4](https://tailwindcss.com/) - 採用最新的 Utility-first CSS 框架\n- **動畫互動**: [Framer Motion](https://www.framer.com/motion/) - 製作流暢的佈局轉換與進出場動畫\n- **圖示庫**: [Lucide React](https://lucide.dev/) - 輕量且風格統一的 SVG 圖示\n- **部署**: [GitHub Pages](https://pages.github.com/)\n\n---\n\n## 💻 使用方式 (Getting Started)\n\n您可以將此專案 Clone 到本地端進行開發或體驗。\n\n### 1. 安裝 (Installation)\n\n確認您的環境已安裝 [Node.js](https://nodejs.org/) (建議 v18+)。\n\n```bash\n# Clone 專案\ngit clone https://github.com/YOUR_USERNAME/gridos.git\n\n# 進入目錄\ncd gridos\n\n# 安裝依賴套件\nnpm install\n```\n\n### 2. 開發模式 (Development)\n\n啟動本地開發伺服器：\n\n```bash\nnpm run dev\n```\n啟動後，瀏覽器通常會自動開啟 `http://localhost:5173`。\n\n### 3. 建置與部署 (Build & Deploy)\n\n若您想將專案部署至 GitHub Pages：\n\n```bash\n# 建置生產版本\nnpm run build\n\n# 部署至 GitHub Pages (需先設定好 repo url)\nnpm run deploy\n```\n\n> **注意**：本專案已配置 `gh-pages` 套件與 GitHub Action 兼容的設定。在部署前，請確保 `vite.config.js` 中的 `base` 路徑與您的 Repository 名稱相符。\n\n---\n\n## 📂 專案結構 (Project Structure)\n\n```text\ngridos/\n├── public/              # 靜態資源\n├── src/\n│   ├── assets/          # 樣式與圖片資源\n│   ├── App.tsx          # 主應用程式邏輯 (State Management, UI Layout)\n│   ├── main.jsx         # 應用程式進入點\n│   └── ...\n├── index.html           # HTML 模板\n├── package.json         # 專案依賴定義\n├── tailwind.config.js   # Tailwind 設定 (v4 可能直接整合於 CSS)\n└── vite.config.js       # Vite 設定 (包含 Base URL 設定)\n```\n\n---\n\n## ✨ 主要功能特點 (Features)\n\n- **自訂習慣**：支援自訂習慣名稱、目標次數與專屬顏色標籤。\n- **一鍵打卡**：直覺的卡片式介面，點擊即可完成打卡，支援長按或多次點擊累計。\n- **進度可視化**：即時顯示今日完成率、剩餘次數與進度條。\n- **歷史熱力圖**：展開式的詳細月曆視圖，檢視每個習慣的長期執行狀況。\n- **每日格言**：隨機顯示激勵人心的名言，為每一天注入正能量。\n- **永久習慣保存 (Persistent Habits)**：自訂的習慣項目會永久保存於本地端，無需每日重複建立。每天打開 App，您的習慣清單都會自動準備好。\n- **每日進度重置 (Daily Reset)**：系統會根據日期自動判斷，在跨日後自動將所有習慣的「今日完成次數」歸零，讓您迎接新的一天挑戰，而歷史紀錄則會被完整保留。\n\n---\n\nMade with ❤️ by Gridos Team.\n",
     "tags": [
       "React"
@@ -56,7 +56,7 @@ export const projects: Project[] = [
     "description": "企業級雙重核實資安通報技能包，整合 165 防騙網與事實查核中心數據，自動生成跨部門防詐騙指南。",
     "category": "Development",
     "year": "2026",
-    "coverImage": "/assets/og-image.png",
+    "coverImage": "/assets/ai_workflow.png",
     "content": "# 🛡️ Verified-Security-Report 技能包\n\n<!-- Branch Protection Test -->\n<!-- Verified Protection Test 2 -->\n\n這是專為公司內部設計的「雙重核實資安通報」技能包。它能協助您每月產出經過事實查核（165防騙網、事實查核中心）證實的資安與防詐騙通報，並自動套用適合同仁閱讀的白話文模板。\n\n## 📦 資料夾結構\n\n- **📜 SKILL.md**：技能主說明文件，定義了執行流程。\n- **📂 workflows/**：包含資安報告產出 (`security-report.md`) 與事實查核 (`fact-check.md`) 的指令邏輯。\n- **📂 templates/**：存放資安通報的 Markdown 範本，可依公司需求自行調整。\n- **📂 output/**：所有產出的正式通報檔案會存放於此。\n\n## 🚀 如何開始使用？\n\n1. 請將整個 `verified-security-report` 資料夾複製到您專案目錄下的 `.agent/skills/` 資料夾中。\n2. 對 AI 助手下達指令即可開始：\n   - 「**產生資安通報**」：啟動全自動兩階段流程（產出 + 深度查核）。\n   - 「**事實查核 [訊息內容]**」：針對特定可疑訊息進行真偽鑑定。\n\n## ✨ 特色\n\n- **自動化情資**：自動搜尋本月最新 165 與事實查核中心案例。\n- **雙重保險**：所有案例產出後都會自動進行二次驗證，確保資訊 100% 正確。\n- **在地化內容**：預設採用適合 45 歲以上同仁閱讀的親民白話口吻。\n\n## ⚙️ 客製化\n\n您可以修改 `templates\\資安通報範例.md` 來更換公司名稱標誌或調整宣導原則。\n",
     "tags": [
       "AI Agent"

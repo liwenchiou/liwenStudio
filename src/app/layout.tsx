@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display, Outfit } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
+import SmoothScroll from "@/components/SmoothScroll";
+import CustomCursor from "@/components/CustomCursor";
+import FloatingCTA from "@/components/FloatingCTA";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -57,7 +62,17 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${playfair.variable} ${outfit.variable} antialiased grainy-bg bg-soft-bg`}
       >
-        {children}
+        <CustomCursor />
+        <FloatingCTA />
+        <Navbar />
+        <SmoothScroll>
+          <div className="flex flex-col min-h-screen">
+            <main className="flex-grow">
+              {children}
+            </main>
+            <Footer />
+          </div>
+        </SmoothScroll>
       </body>
     </html>
   );
