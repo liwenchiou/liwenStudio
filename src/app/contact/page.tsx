@@ -59,7 +59,7 @@ export default function ContactPage() {
             <div className="space-y-4 md:space-y-6">
               <p className="text-subtle/60 font-mono text-[9px] md:text-[10px] uppercase tracking-[0.3em] font-bold">Connect via</p>
               <div className="flex flex-col gap-3 md:gap-4 text-lg md:text-xl font-bold text-slate-ink">
-                <Link href="mailto:hello@liwen.studio" className="hover:text-copper transition-colors">hello@liwen.studio</Link>
+                <Link href="mailto:service@liwen.studio" className="hover:text-copper transition-colors">service@liwen.studio</Link>
                 <div className="flex justify-center lg:justify-start gap-6">
                   <Link href="https://linkedin.com" className="hover:text-copper transition-colors underline decoration-copper/20 underline-offset-4">Linkedin</Link>
                   <Link href="https://github.com/liwenchiou" className="hover:text-copper transition-colors underline decoration-copper/20 underline-offset-4">GitHub</Link>

@@ -177,7 +177,7 @@ export default function HomePage() {
             <div className="flex gap-8 text-slate-ink/40 text-xs font-bold uppercase tracking-widest">
               <Link href="https://github.com/liwenchiou" className="hover:text-copper transition-colors flex items-center gap-2"><Code size={16} /> GitHub</Link>
               <Link href="https://linkedin.com" className="hover:text-copper transition-colors flex items-center gap-2"><Briefcase size={16} /> LinkedIn</Link>
-              <Link href="mailto:hello@liwen.studio" className="hover:text-copper transition-colors flex items-center gap-2"><Mail size={16} /> Contact</Link>
+              <Link href="mailto:service@liwen.studio" className="hover:text-copper transition-colors flex items-center gap-2"><Mail size={16} /> Contact</Link>
             </div>
             <p className="text-[10px] font-mono text-slate-ink/20">© {new Date().getFullYear()} LIWEN STUDIO. BUILT WITH PRECISION.</p>
           </div>
